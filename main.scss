@@ -1,0 +1,168 @@
+
+@import url("normalize.css");
+
+@font-face {
+    font-family: Monserrat;
+    font-style: normal;
+    src: url("Montserrat-Regular.ttf") format("truetype");
+  }
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: Monserrat;
+
+
+    h1 {
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    a {
+        text-decoration: none; 
+    }
+
+    .top-header {
+        &.desktop {
+            display: none;
+        }
+
+        &.mobile {
+            display: block;
+        }
+    }
+
+    @media (min-width: 415px) {
+        .top-header {
+            &.desktop {
+                display: block;
+            }
+
+            &.mobile {
+                display: none;
+            }
+        }
+    }
+
+    #header {
+        background:
+            linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url("images/header-background.jpg");
+        height: 700px;
+    }
+    .top-header {
+        a { 
+            color: #FFF;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.2px;         
+        }
+
+        &.desktop {
+            display: flex;
+            flex-direction: row;
+            .brand-name {
+                margin: 30px 0px 0px 195px;
+    
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+            }
+            .menu-links{
+                margin: 33px 0px 0px 83px;
+                a {
+                    margin-right: 21px  ;
+                }
+
+            }
+            .sign-in-up {
+                margin: 19px 0px 0px 214px;
+                display: flex;
+                flex-direction: row;
+                .sign-in {
+                    padding: 15px 0px;
+                    margin-right: 45px;
+                }
+                .sign-up {
+                    border-radius: 5px;
+                    padding: 15px 25px;
+                    background-color: #23A6F0;
+                }
+            }
+        }
+    }
+    #img1 {
+        width: 443px;
+        height: 681px;
+        padding-left:63.5px;
+    }
+    .main-info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 31px;
+        margin-left: 195px;
+        
+
+        .screan-info{
+
+          padding-top: 87px;
+          h1 {
+            margin: 0;
+          }
+
+          .dop-info {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+          }
+          .dop-link1 {
+            a{
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 22px;
+              text-align: center;
+              letter-spacing: 0.2px;
+              color: #FFFFFF;
+
+            }
+            display: inline-block;
+            background: #23A6F0;
+            border-radius: 37px;
+            padding: 15px 36px;
+            
+           }
+
+           .dop-link2 {
+            a{
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 22px;
+              text-align: center;
+              letter-spacing: 0.2px;
+              color: #FFFFFF;
+
+            }
+            display: inline-block;
+            border: 1px solid;
+            border-color: #FFF;
+            background: rgb(0, 0, 0,0);
+            border-radius: 37px;
+            padding: 15px 36px;
+            margin-left: 10px;
+            
+           } 
+
+        }
+    }
+    
+
+}
