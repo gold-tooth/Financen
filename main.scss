@@ -4,6 +4,8 @@
 
 
 p { margin: 0px; padding: 0px; }
+h2,h3,h6     { margin: 0px; padding: 0px;}
+
 
 
 body {
@@ -22,6 +24,17 @@ body {
 
     a {
         text-decoration: none; 
+    }
+
+    .motto {
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;   
+        padding-top:  10px;
     }
 
     .top-header {
@@ -180,22 +193,11 @@ body {
             color: #FFFFFF;
             letter-spacing: 0.2px;
             text-align: center;
-
+            justify-content: center;
             padding-left: 497.5px;
             padding-top:  160px;
         }
-        .second-block-info {
-            width: 490px;
-            height: 40px;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: #FFFFFF;
-            padding-left: 485px;
-            padding-top:  10px;
-        }
+        
 
         .second-block-screan{
             display: flex;
@@ -228,6 +230,90 @@ body {
                 letter-spacing: 0.1px;
                 color: #252B42;
             }
+        }
+    }
+    #feedbacks {
+        background: #8EC2F2;
+        width: 1440px;
+        height: 772px;
+
+        .what-clients-say {
+            height: 57px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 57px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+
+            text-align: center;
+            padding-top: 112px;
+
+        }
+
+        .our-desinger{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 120px;
+
+            .person{
+                
+                background-color: #FFF;
+                padding: 30px 40px;
+
+                &:nth-child(1) {
+                    margin-right: 68.5px;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 68.5px;
+                }
+
+                .star{
+                    display: flex;
+                    flex-direction: row;
+                    padding-top: 17px;
+                    padding-bottom: 17px;
+                    
+                    img {
+                        margin-right: 8.7px;
+                    }
+
+                  }
+                  
+                h3 {
+                    color: #252B42;
+                    letter-spacing: 0.1px;
+                    width: 165px;
+                    line-height: 32px;
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+
+                h6 {
+                    color: #737373;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                }
+
+                p {
+                    color: #737373;
+                    letter-spacing: 0.2px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                
+                .user-pic {
+                    position: absolute;
+                    margin-left: -82px;
+                    margin-top: -1px;
+                }
+
+            }
+            
         }
     }   
 }
