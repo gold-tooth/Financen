@@ -1,13 +1,14 @@
 @import url("normalize.css");
-@font-face {
-  font-family: Monserrat;
-  font-style: normal;
-  src: url("Montserrat-Regular.ttf") format("truetype");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800&display=swap");
+p {
+  margin: 0px;
+  padding: 0px;
 }
+
 body {
   width: 1440px;
   margin: 0 auto;
-  font-family: Monserrat;
+  font-family: "Montserrat";
 }
 body h1 {
   font-weight: 800;
@@ -34,7 +35,7 @@ body .top-header.mobile {
   }
 }
 body #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/header-background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/header-background.jpg");
   height: 700px;
 }
 body .top-header a {
@@ -93,6 +94,7 @@ body .main-info .screan-info {
 }
 body .main-info .screan-info h1 {
   margin: 0;
+  font-weight: 800;
 }
 body .main-info .screan-info .dop-info {
   font-weight: 500;
@@ -131,6 +133,63 @@ body .main-info .screan-info .dop-link2 a {
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+}
+body #better_strategies {
+  background: #252B42;
+  width: 1440px;
+  height: 641px;
+}
+body #better_strategies .second-block-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  width: 480px;
+  height: 114px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-left: 497.5px;
+  padding-top: 160px;
+}
+body #better_strategies .second-block-info {
+  width: 490px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding-left: 485px;
+  padding-top: 10px;
+}
+body #better_strategies .second-block-screan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body #better_strategies .second-block-screan .block-screan-item {
+  box-sizing: border-box;
+  margin-top: 80px;
+  padding-top: 31.33px;
+  width: 325px;
+  height: 133.53px;
+  background: #FAFAFA;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  text-align: center;
+}
+body #better_strategies .second-block-screan .block-screan-item.blue {
+  background-color: #23A6F0;
+  margin-left: 33.5px;
+  margin-right: 33.5px;
+}
+body #better_strategies .second-block-screan .first-act {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
 }
 
 /*# sourceMappingURL=main.css.map */
