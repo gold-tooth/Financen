@@ -1,11 +1,6 @@
 @import url("normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800&display=swap");
-p {
-  margin: 0px;
-  padding: 0px;
-}
-
-h2, h3, h6 {
+p, h2, h3, h6, h5, ul {
   margin: 0px;
   padding: 0px;
 }
@@ -320,6 +315,114 @@ body #clients .subscribe button {
   padding: 15px 22.5px;
   margin-left: -5px;
   height: 62px;
+}
+body #pricing {
+  background: #252B42;
+  width: 1440px;
+  height: 1052px;
+}
+body #pricing h2 {
+  height: 57px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 112px;
+}
+body #pricing .offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+body #pricing .offers .offer-screan {
+  margin-left: 32px;
+  background: #FFFFFF;
+  border: 1px solid #23A6F0;
+  border-radius: 10px;
+  width: 338px;
+  padding: 50px, 70px, 50px, 70px;
+}
+body #pricing .offers .offer-screan h3 {
+  text-align: center;
+  margin: 50px 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+body #pricing .offers .offer-screan h5 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+body #pricing .offers .offer-screan .price-per-month {
+  text-align: center;
+  margin-bottom: 36px;
+}
+body #pricing .offers .offer-screan .price-per-month .value {
+  font-size: 40px;
+  line-height: 57px;
+  color: #23A6F0;
+  display: inline-block;
+  font-weight: 600;
+}
+body #pricing .offers .offer-screan .price-per-month .currency {
+  color: #23A6F0;
+  position: absolute;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+body #pricing .offers .offer-screan .price-per-month .period {
+  color: #8EC2F2;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+body #pricing .offers .offer-screan ul {
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+body #pricing .offers .offer-screan ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+body #pricing .offers .offer-screan ul li h6 {
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+body #pricing .offers .offer-screan .button-container {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+body #pricing .offers .offer-screan .button-container .select-plan-btn {
+  width: 279px;
+  display: block;
+  border-radius: 5px;
+  padding: 15px 0px;
+  background-color: #23A6F0;
+  color: #FFF;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }
 
 /*# sourceMappingURL=main.css.map */
