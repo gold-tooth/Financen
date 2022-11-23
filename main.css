@@ -25,6 +25,9 @@ body h1 {
 body a {
   text-decoration: none;
 }
+body a:hover {
+  text-decoration: underline;
+}
 body .motto {
   height: 40px;
   font-weight: 400;
