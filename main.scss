@@ -1,9 +1,16 @@
-
 @import url("normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800&display=swap');
 
 
-p, h2,h3,h6, h5, ul { margin: 0px; padding: 0px;}
+p,
+h2,
+h3,
+h6,
+h5,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 
@@ -22,7 +29,7 @@ body {
     }
 
     a {
-        text-decoration: none; 
+        text-decoration: none;
     }
 
     .motto {
@@ -32,8 +39,8 @@ body {
         line-height: 20px;
         text-align: center;
         letter-spacing: 0.2px;
-        color: #FFFFFF;   
-        padding-top:  10px;
+        color: #FFFFFF;
+        padding-top: 10px;
     }
 
     .top-header {
@@ -60,47 +67,54 @@ body {
 
     #header {
         background:
-            linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url("assets/images/header-background.jpg");
         height: 700px;
     }
+
     .top-header {
-        a { 
+        a {
             color: #FFF;
             font-weight: 600;
             font-size: 14px;
             line-height: 24px;
             text-align: center;
-            letter-spacing: 0.2px;         
+            letter-spacing: 0.2px;
         }
 
         &.desktop {
             display: flex;
             flex-direction: row;
+
             .brand-name {
                 margin: 30px 0px 0px 195px;
-    
+
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 32px;
                 letter-spacing: 0.1px;
                 color: #FFFFFF;
             }
-            .menu-links{
+
+            .menu-links {
                 margin: 33px 0px 0px 83px;
+
                 a {
-                    margin-right: 21px  ;
+                    margin-right: 21px;
                 }
 
             }
+
             .sign-in-up {
                 margin: 19px 0px 0px 214px;
                 display: flex;
                 flex-direction: row;
+
                 .sign-in {
                     padding: 15px 0px;
                     margin-right: 45px;
                 }
+
                 .sign-up {
                     border-radius: 5px;
                     padding: 15px 25px;
@@ -109,81 +123,87 @@ body {
             }
         }
     }
+
     #img1 {
         width: 443px;
         height: 681px;
-        padding-left:63.5px;
+        padding-left: 63.5px;
     }
+
     .main-info {
         display: flex;
         flex-direction: row;
         margin-top: 31px;
         margin-left: 195px;
-        
-
-        .screan-info{
-
-          padding-top: 87px;
-          h1 {
-            margin: 0;
-            font-weight: 800;
-          }
 
 
-          .dop-info {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 30px;
-            letter-spacing: 0.2px;
-            color: #FFFFFF;
-          }
-          .dop-link1 {
-            a{
-              font-weight: 700;
-              font-size: 14px;
-              line-height: 22px;
-              text-align: center;
-              letter-spacing: 0.2px;
-              color: #FFFFFF;
+        .screan-info {
+
+            padding-top: 87px;
+
+            h1 {
+                margin: 0;
+                font-weight: 800;
+            }
+
+
+            .dop-info {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+            }
+
+            .dop-link1 {
+                a {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+
+                }
+
+                display: inline-block;
+                background: #23A6F0;
+                border-radius: 37px;
+                padding: 15px 36px;
 
             }
-            display: inline-block;
-            background: #23A6F0;
-            border-radius: 37px;
-            padding: 15px 36px;
-            
-           }
 
-           .dop-link2 {
-            a{
-              font-weight: 700;
-              font-size: 14px;
-              line-height: 22px;
-              text-align: center;
-              letter-spacing: 0.2px;
-              color: #FFFFFF;
+            .dop-link2 {
+                a {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+
+                }
+
+                display: inline-block;
+                border: 1px solid;
+                border-color: #FFF;
+                background: rgb(0, 0, 0, 0);
+                border-radius: 37px;
+                padding: 15px 36px;
+                margin-left: 10px;
 
             }
-            display: inline-block;
-            border: 1px solid;
-            border-color: #FFF;
-            background: rgb(0, 0, 0,0);
-            border-radius: 37px;
-            padding: 15px 36px;
-            margin-left: 10px;
-            
-           } 
 
         }
     }
-    
+
     #better_strategies {
 
         background: #252B42;
         width: 1440px;
         height: 641px;
 
-        .second-block-title{
+        .second-block-title {
             font-weight: 600;
             font-size: 40px;
             line-height: 57px;
@@ -194,29 +214,30 @@ body {
             text-align: center;
             justify-content: center;
             padding-left: 497.5px;
-            padding-top:  160px;
+            padding-top: 160px;
         }
-        
 
-        .second-block-screan{
+
+        .second-block-screan {
             display: flex;
             flex-direction: row;
             justify-content: center;
 
-        
+
             .block-screan-item {
                 box-sizing: border-box;
                 margin-top: 80px;
-                padding-top: 31.33px;   
+                padding-top: 31.33px;
                 width: 325px;
                 height: 133.53px;
                 background: #FAFAFA;
                 border: 1px solid #E9E9E9;
                 border-radius: 5px;
                 text-align: center;
+
                 &.blue {
                     background-color: #23A6F0;
-                    margin-left: 33.5px ;
+                    margin-left: 33.5px;
                     margin-right: 33.5px;
                 }
 
@@ -231,6 +252,7 @@ body {
             }
         }
     }
+
     #feedbacks {
         background: #8EC2F2;
         width: 1440px;
@@ -249,14 +271,14 @@ body {
 
         }
 
-        .our-desinger{
+        .our-desinger {
             display: flex;
             flex-direction: row;
             justify-content: center;
             padding-top: 120px;
 
-            .person{
-                
+            .person {
+
                 background-color: #FFF;
                 padding: 30px 40px;
 
@@ -268,18 +290,18 @@ body {
                     margin-left: 68.5px;
                 }
 
-                .star{
+                .star {
                     display: flex;
                     flex-direction: row;
                     padding-top: 17px;
                     padding-bottom: 17px;
-                    
+
                     img {
                         margin-right: 8.7px;
                     }
 
-                  }
-                  
+                }
+
                 h3 {
                     color: #252B42;
                     letter-spacing: 0.1px;
@@ -304,7 +326,7 @@ body {
                     font-size: 14px;
                     line-height: 20px;
                 }
-                
+
                 .user-pic {
                     position: absolute;
                     margin-left: -82px;
@@ -312,10 +334,10 @@ body {
                 }
 
             }
-            
+
         }
     }
-    
+
     #clients {
         background: #252B42;
         width: 1440px;
@@ -327,7 +349,7 @@ body {
         align-items: center;
 
 
-        .logo{
+        .logo {
             display: flex;
             padding-top: 50px;
             padding-bottom: 50px;
@@ -338,7 +360,7 @@ body {
 
         }
 
-        .subscribe{
+        .subscribe {
             display: flex;
             background: linear-gradient(to left, #D71489, #004788);
             width: 1048px;
@@ -365,10 +387,10 @@ body {
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 28px;
-                letter-spacing: 0.2px;    
+                letter-spacing: 0.2px;
                 color: #737373;
                 padding-left: 20px;
-                
+
             }
 
             button {
@@ -393,7 +415,7 @@ body {
         background: #252B42;
         width: 1440px;
         height: 1052px;
-    
+
         h2 {
             height: 57px;
             font-weight: 600;
@@ -405,6 +427,7 @@ body {
             text-align: center;
             padding-top: 112px;
         }
+
         .offers {
             display: flex;
             flex-direction: row;
@@ -420,31 +443,74 @@ body {
                 width: 338px;
                 padding: 50px, 70px, 50px, 70px;
 
-                
-                h3 { text-align: center; margin: 50px 0px; font-weight: 700; font-size: 24px; line-height: 32px; letter-spacing: 0.1px; color: #252B42; }
-                h5 { text-align: center; margin-bottom: 35px; font-weight: 700; font-size: 16px; line-height: 24px; letter-spacing: 0.1px; color: #737373;}
-                
+
+                h3 {
+                    text-align: center;
+                    margin: 50px 0px;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: 0.1px;
+                    color: #252B42;
+                }
+
+                h5 {
+                    text-align: center;
+                    margin-bottom: 35px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    color: #737373;
+                }
+
                 .price-per-month {
                     text-align: center;
                     margin-bottom: 36px;
-                    .value { 
+
+                    .value {
                         font-size: 40px;
                         line-height: 57px;
-                        color: #23A6F0; 
+                        color: #23A6F0;
                         display: inline-block;
                         font-weight: 600;
                     }
-                    .currency { color: #23A6F0; position: absolute; font-weight: 700; font-size: 16px; line-height: 24px;}
-                    .period { color: #8EC2F2;  display: inline-block; font-weight: 600; font-size: 14px; line-height: 24px; }
+
+                    .currency {
+                        color: #23A6F0;
+                        position: absolute;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+
+                    .period {
+                        color: #8EC2F2;
+                        display: inline-block;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
                 }
 
                 ul {
                     margin-left: 45px;
                     margin-bottom: 20px;
-                    li { 
-                        list-style-type: none; 
+
+                    li {
+                        list-style-type: none;
                         margin-bottom: 15px;
-                        h6 { display: inline-block; position: absolute; margin-top: 10px; margin-left: 10px; font-weight: 600; font-size: 14px; line-height: 24px; letter-spacing: 0.2px; }
+
+                        h6 {
+                            display: inline-block;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                        }
                     }
                 }
 
@@ -452,6 +518,7 @@ body {
                     text-align: center;
                     margin-bottom: 50px;
                     margin-top: 35px;
+
                     .select-plan-btn {
                         width: 279px;
                         display: block;
@@ -466,10 +533,53 @@ body {
                         letter-spacing: 0.2px;
                     }
                 }
-                
+
             }
         }
+
+    }
+
+    #contact_us {
+        background-color: #252B42;
+        display: flex;
+        flex-direction: row;
+        padding: 40px 233px 40px 195px;
+        color: #FFF;
         
+        .consulting {
+            margin-top: -5px;
+            margin-right: 398px;
+            h3 { 
+                margin-bottom: 10px; 
+                width: 480px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+            }
+            
+        }
+
+        .button-container {
+            a {
+                width: 100px;
+                display: block;
+                text-align: center;
+                border-radius: 5px;
+                padding: 15px 40px;
+                background-color: #23A6F0;
+                color: #FFF;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.2px;
+            }
+        }
     }
 
 }
