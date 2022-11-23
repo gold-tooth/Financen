@@ -1,0 +1,505 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800&display=swap");
+p,
+h2,
+h3,
+h6,
+h5,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+}
+body h1 {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
+}
+body .motto {
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+body .top-header.desktop {
+  display: none;
+}
+body .top-header.mobile {
+  display: block;
+}
+@media (min-width: 415px) {
+  body .top-header.desktop {
+    display: block;
+  }
+  body .top-header.mobile {
+    display: none;
+  }
+}
+body #header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/header-background.jpg");
+  height: 700px;
+}
+body .top-header a {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+body .top-header.desktop {
+  display: flex;
+  flex-direction: row;
+}
+body .top-header.desktop .brand-name {
+  margin: 30px 0px 0px 195px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+body .top-header.desktop .menu-links {
+  margin: 33px 0px 0px 83px;
+}
+body .top-header.desktop .menu-links a {
+  margin-right: 21px;
+}
+body .top-header.desktop .sign-in-up {
+  margin: 19px 0px 0px 214px;
+  display: flex;
+  flex-direction: row;
+}
+body .top-header.desktop .sign-in-up .sign-in {
+  padding: 15px 0px;
+  margin-right: 45px;
+}
+body .top-header.desktop .sign-in-up .sign-up {
+  border-radius: 5px;
+  padding: 15px 25px;
+  background-color: #23A6F0;
+}
+body #img1 {
+  width: 443px;
+  height: 681px;
+  padding-left: 63.5px;
+}
+body .main-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 31px;
+  margin-left: 195px;
+}
+body .main-info .screan-info {
+  padding-top: 87px;
+}
+body .main-info .screan-info h1 {
+  margin: 0;
+  font-weight: 800;
+}
+body .main-info .screan-info .dop-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+body .main-info .screan-info .dop-link1 {
+  display: inline-block;
+  background: #23A6F0;
+  border-radius: 37px;
+  padding: 15px 36px;
+}
+body .main-info .screan-info .dop-link1 a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+body .main-info .screan-info .dop-link2 {
+  display: inline-block;
+  border: 1px solid;
+  border-color: #FFF;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 37px;
+  padding: 15px 36px;
+  margin-left: 10px;
+}
+body .main-info .screan-info .dop-link2 a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+body #better_strategies {
+  background: #252B42;
+  width: 1440px;
+  height: 641px;
+}
+body #better_strategies .second-block-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  width: 480px;
+  height: 114px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  text-align: center;
+  justify-content: center;
+  padding-left: 497.5px;
+  padding-top: 160px;
+}
+body #better_strategies .second-block-screan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body #better_strategies .second-block-screan .block-screan-item {
+  box-sizing: border-box;
+  margin-top: 80px;
+  padding-top: 31.33px;
+  width: 325px;
+  height: 133.53px;
+  background: #FAFAFA;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  text-align: center;
+}
+body #better_strategies .second-block-screan .block-screan-item.blue {
+  background-color: #23A6F0;
+  margin-left: 33.5px;
+  margin-right: 33.5px;
+}
+body #better_strategies .second-block-screan .first-act {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+body #feedbacks {
+  background: #8EC2F2;
+  width: 1440px;
+  height: 772px;
+}
+body #feedbacks .what-clients-say {
+  height: 57px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 112px;
+}
+body #feedbacks .our-desinger {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 120px;
+}
+body #feedbacks .our-desinger .person {
+  background-color: #FFF;
+  padding: 30px 40px;
+}
+body #feedbacks .our-desinger .person:nth-child(1) {
+  margin-right: 68.5px;
+}
+body #feedbacks .our-desinger .person:nth-child(2) {
+  margin-left: 68.5px;
+}
+body #feedbacks .our-desinger .person .star {
+  display: flex;
+  flex-direction: row;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+body #feedbacks .our-desinger .person .star img {
+  margin-right: 8.7px;
+}
+body #feedbacks .our-desinger .person h3 {
+  color: #252B42;
+  letter-spacing: 0.1px;
+  width: 165px;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+}
+body #feedbacks .our-desinger .person h6 {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+body #feedbacks .our-desinger .person p {
+  color: #737373;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+body #feedbacks .our-desinger .person .user-pic {
+  position: absolute;
+  margin-left: -82px;
+  margin-top: -1px;
+}
+body #clients {
+  background: #252B42;
+  width: 1440px;
+  height: 339px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body #clients .logo {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body #clients .logo img {
+  padding-right: 86.5px;
+}
+body #clients .subscribe {
+  display: flex;
+  background: linear-gradient(to left, #D71489, #004788);
+  width: 1048px;
+  border-radius: 5px;
+  padding: 30px 50px;
+}
+body #clients .subscribe h3 {
+  padding-right: 240px;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  width: 285px;
+}
+body #clients .subscribe input[type=email] {
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  width: 450px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-left: 20px;
+}
+body #clients .subscribe button {
+  background: #23A6F0;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding: 15px 22.5px;
+  margin-left: -5px;
+  height: 62px;
+}
+body #pricing {
+  background: #252B42;
+  width: 1440px;
+  height: 1052px;
+}
+body #pricing h2 {
+  height: 57px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 112px;
+}
+body #pricing .offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+body #pricing .offers .offer-screan {
+  margin-left: 32px;
+  background: #FFFFFF;
+  border: 1px solid #23A6F0;
+  border-radius: 10px;
+  width: 338px;
+  padding: 50px, 70px, 50px, 70px;
+}
+body #pricing .offers .offer-screan h3 {
+  text-align: center;
+  margin: 50px 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+body #pricing .offers .offer-screan h5 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+body #pricing .offers .offer-screan .price-per-month {
+  text-align: center;
+  margin-bottom: 36px;
+}
+body #pricing .offers .offer-screan .price-per-month .value {
+  font-size: 40px;
+  line-height: 57px;
+  color: #23A6F0;
+  display: inline-block;
+  font-weight: 600;
+}
+body #pricing .offers .offer-screan .price-per-month .currency {
+  color: #23A6F0;
+  position: absolute;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+body #pricing .offers .offer-screan .price-per-month .period {
+  color: #8EC2F2;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+body #pricing .offers .offer-screan ul {
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+body #pricing .offers .offer-screan ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+body #pricing .offers .offer-screan ul li h6 {
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+body #pricing .offers .offer-screan .button-container {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+body #pricing .offers .offer-screan .button-container .select-plan-btn {
+  width: 279px;
+  display: block;
+  border-radius: 5px;
+  padding: 15px 0px;
+  background-color: #23A6F0;
+  color: #FFF;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+body #contact_us {
+  background-color: #252B42;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 233px 40px 195px;
+  color: #FFF;
+}
+body #contact_us .consulting {
+  margin-top: -5px;
+  margin-right: 398px;
+}
+body #contact_us .consulting h3 {
+  margin-bottom: 10px;
+  width: 480px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+body #contact_us .consulting p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+body #contact_us .button-container a {
+  width: 100px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px 40px;
+  background-color: #23A6F0;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+body #links {
+  background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+  padding: 50px 286px 52px 195px;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+}
+body #links h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+body #links li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+body #links a {
+  color: #FFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+body #links .col {
+  width: 233px;
+  margin-right: 7px;
+}
+body #links .col:last-child {
+  width: 321px;
+}
+
+/*# sourceMappingURL=main.css.map */
